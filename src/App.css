@@ -1,0 +1,40 @@
+.intro,
+.bg-grad {
+   background: rgb(10, 10, 10);
+   background: linear-gradient(
+      120deg,
+      rgba(10, 10, 10, 1) 55%,
+      #67e8f9 74%,
+      rgba(10, 10, 10, 1) 98%
+   );
+}
+.bg-grad2 {
+   background: rgba(10, 10, 10, 0.451);
+   /* background: linear-gradient(
+       -120deg,
+       #0a0a0a87 55%,
+       rgba(103, 232, 249, 0.502) 74%,
+       #0a0a0a87 98%
+    ); */
+}
+
+.roadmap {
+   /* background: url('../public/brock-intro.png') no-repeat fixed; */
+   background-size: cover;
+   background-position: fixed;
+}
+
+.faq-title,
+.row-title {
+   padding: 20px !important;
+}
+.faq-row-wrapper{
+    border-radius: 20px;
+}
+.faq-row {
+    border-bottom: 1px solid #201f1f !important;
+}
+.faq-title h2{
+    font-size: 40px !important;
+    font-weight: bold;
+}
