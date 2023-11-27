@@ -7,14 +7,14 @@ export default function Faqs() {
       rows: [
          {
             title: "What is a BrockTrade bot?",
-            content: `The Hodless bot is a new Telegram bot with an incredibly user-friendly and intuitive interface, allowing users to get their hands on upcoming tokens before anyone else. Just imagine buying PEPE or DOGE coins at the lowest prices – that would be pretty cool, wouldn't it?
+            content: `The Hodless bot is a new Telegram bot with an incredibly user-friendly and intuitive interface, allowing users to get their hands on upcoming tokens before anyone else. Just imagine buying BrockTrade coins at the lowest prices – that would be pretty cool, wouldn't it?
 
-            The bot offers a variety of features, such as sniping, copy trading, cryptocurrency buying and selling, and cryptocurrency transfers. It functions on two blockchains: Ethereum (ETH) and Binance Smart Chain (BSC). The bot is designed to be convenient for both beginners and professionals to utilize.`,
+            The bot offers a variety of features, such as sniping, copy trading, cryptocurrency buying and selling, and cryptocurrency transfers. The bot is designed to be convenient for both beginners and professionals to utilize.`,
          },
          {
             title: "Can I use the bot for free?",
             content:
-               "The BrockTrade bot charges a 1% fee for each sniping and copy trading transaction. However, a significant portion of this revenue is distributed through a revenue share program among $HBOT token holders.",
+               "The BrockTrade bot charges a 1% fee for each sniping and copy trading transaction. However, a significant portion of this revenue is distributed through a revenue share program among $BTrade token holders.",
          },
          {
             title: "Where can I buy a token?",
@@ -22,7 +22,7 @@ export default function Faqs() {
          {
             title: "What's the utility of the token?",
             content: `
-            The primary purpose of the $HBOT token is to participate in the revenue share program. The more tokens you hold, the greater your share of profits will be. Additionally, HBOT tokens are required to increase your referral commission rate.`,
+            The primary purpose of the $BTrade token is to participate in the revenue share program. The more tokens you hold, the greater your share of profits will be. Additionally, BTrade tokens are required to increase your referral commission rate.`,
          },
       ],
    };
