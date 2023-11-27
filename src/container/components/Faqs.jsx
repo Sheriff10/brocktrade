@@ -14,7 +14,7 @@ export default function Faqs() {
          {
             title: "Can I use the bot for free?",
             content:
-               "The Brock Trade bot charges a 1% fee for each sniping and copy trading transaction. However, a significant portion of this revenue is distributed through a revenue share program among $BTrade token holders.",
+               "The Brock Trade bot charges a 0.5% fee for each sniping and copy trading transaction. However, a significant portion of this revenue is distributed through a revenue share program among $BTrade token holders.",
          },
          {
             title: "Where can I buy a token?",
