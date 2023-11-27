@@ -8,8 +8,8 @@ export default function Header() {
    const navigation = [
       { name: "About", href: "#about" },
       { name: "Why choose us", href: "#choose" },
-      { name: "Utils", href: "#utils" },
-      { name: "Tokenomics", href: "#tokenomics" },
+      { name: "Solutions", href: "#solutions" },
+      { name: "Faqs", href: "#faqs" },
    ];
 
    return (
@@ -72,7 +72,7 @@ export default function Header() {
                <div className="flex items-center justify-between">
                   <a href="#" className="-m-1.5 p-1.5">
                      <span className="sr-only">Your Company</span>
-                  <span className="text-white font-bold text-2xl">Block<span className="text-cyan-300">vest</span></span>
+                  <span className="text-white font-bold text-2xl">Brock<span className="text-cyan-300">Trade</span></span>
 
                   </a>
                   <button

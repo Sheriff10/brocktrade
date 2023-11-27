@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Bot() {
    return (
-      <div className="bot bg-neutral-950 py-32">
+      <div className="bot bg-neutral-950 py-32" id="solutions">
          <div className="container">
             <div className="heading mb-12">
                <span className="text-4xl md:text-6xl text-white font-bold">

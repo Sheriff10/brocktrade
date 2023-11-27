@@ -6,27 +6,27 @@ export default function Faqs() {
       title: "FAQ (How it works)",
       rows: [
          {
-            title: "Lorem ipsum dolor sit amet,",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-                  ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-                  In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-                  Fusce sed commodo purus, at tempus turpis.`,
+            title: "What is a Hodless bot?",
+            content: `The Hodless bot is a new Telegram bot with an incredibly user-friendly and intuitive interface, allowing users to get their hands on upcoming tokens before anyone else. Just imagine buying PEPE or DOGE coins at the lowest prices – that would be pretty cool, wouldn't it?
+
+            The bot offers a variety of features, such as sniping, copy trading, cryptocurrency buying and selling, and cryptocurrency transfers. It functions on two blockchains: Ethereum (ETH) and Binance Smart Chain (BSC). The bot is designed to be convenient for both beginners and professionals to utilize.`,
          },
          {
-            title: "Nunc maximus, magna at ultricies elementum",
+            title: "Can I use the bot for free?",
             content:
-               "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+               "The Hodless bot charges a 1% fee for each sniping and copy trading transaction. However, a significant portion of this revenue is distributed through a revenue share program among $HBOT token holders.",
          },
          {
-            title: "Curabitur laoreet, mauris vel blandit fringilla",
+            title: "Where can I buy a token?",
             content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
                 Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
                 Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
                 Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
          },
          {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
+            title: "What's the utility of the token?",
+            content: `
+            The primary purpose of the $HBOT token is to participate in the revenue share program. The more tokens you hold, the greater your share of profits will be. Additionally, HBOT tokens are required to increase your referral commission rate.`,
          },
       ],
    };
@@ -43,7 +43,7 @@ export default function Faqs() {
       rowContentPaddingRight: "20px",
       arrowColor: "#67e8f9",
 
-      rowTitlePaddingTop: "100px"
+      rowTitlePaddingTop: "100px",
    };
 
    const config = {
@@ -52,7 +52,7 @@ export default function Faqs() {
       // tabFocus: true
    };
    return (
-      <div className="py-16 px-3 bg-neutral-950">
+      <div className="py-16 px-3 bg-neutral-950" id="faqs">
          <Faq data={data} styles={styles} config={config} />
       </div>
    );

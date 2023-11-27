@@ -8,32 +8,36 @@ export default function Roadmap() {
    };
    const cardArr = [
       cardFunc(
-         "Safety Comes First",
-         "BrockTrade that every user feels safe. All wallet details are fully encrypted and code is audited."
+         "Snipe New Tokens with Tips/Bribes",
+         "Stay ahead of the curve with our cutting-edge sniper bot, empowering you to snipe new tokens effortlessly. Maximize your gains by accessing exclusive tips and bribes"
       ),
       cardFunc(
-         "Easy Deposit & Withdrawals",
-         "Easily Access and Withdraw your funds with zero fees."
+         "Copy Trade Profitable Snipers",
+         "Amplify your success by seamlessly copying trades from the most profitable snipers in the market."
       ),
       cardFunc(
-         "Low Charges",
-         "Swift gives back to its community by offering very low charges. Swift charges 1% of every transaction."
+         "Easy-to-Use Interface",
+         "Simplify your trading journey with an easy-to-use interface designed for both beginners and seasoned traders."
       ),
       cardFunc(
-         "Affiliate Program",
-         "Affiliate program allows influencers and users to make money off Swift and turn our application into their own income model."
+         "Honeypot Protection",
+         "Trade with confidence knowing that our bot comes equipped with honeypot protection. "
       ),
       cardFunc(
-         "Fast Transactions",
-         "Utilizing the fastest nodes on the blockchain, Swift offers maximum speed for it's users."
+         "Regular Token Swaps",
+         "Keep your portfolio dynamic with regular token swaps facilitated by our bot. Stay on top of market trends and opportunities, ensuring your assets are always strategically positioned for maximum returns"
       ),
       cardFunc(
-         "24/7 Support",
-         "When using Swift, we offer 24/7 support for Free and Pro Users."
+         "Advanced TP/SL",
+         "Take control of your trades with advanced take-profit (TP) and stop-loss (SL) features. Our sniper bot empowers you to set precise parameters,"
+      ),
+      cardFunc(
+         "Anti-MEV Protection",
+         "Guard against the menace of front-running with our bot's advanced anti-MEV protection, ensuring a fair and transparent trading environment."
       ),
    ];
    return (
-      <div className="roadmap">
+      <div className="roadmap" id="choose">
          <div className="  py-32 bg-neutral-950">
             <div className="container">
                <div className="heading mb-16">
@@ -42,7 +46,7 @@ export default function Roadmap() {
                      choose us.
                   </span>
                </div>
-               <div className="grid lg:grid-cols-3 gap-4">
+               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {cardArr.map((i, index) => (
                      <div
                         className="wrap backdrop-blur-xl bg-neutral-900  p-4 rounded-xl"

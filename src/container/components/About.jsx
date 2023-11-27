@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
    return (
-      <div className="about py-32">
+      <div className="about py-32" id="about">
          <div className="container">
 
             <div className="text-wrap text-neutral-300 bg-black px-4 py-32 bg-opacity-50 rounded-xl">
