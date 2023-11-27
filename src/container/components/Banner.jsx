@@ -8,7 +8,6 @@ export default function Banner() {
    const iconArr = [
     iconFunc(<FaTwitter />, "https://twitter.com/brocktrade?t=YM9K4CJqsx0XXwJkQJes9Q&s=09"),
     iconFunc(<FaTelegram />, "https://t.me/Btradebitrock"),
-    iconFunc(<FaLinkedin />, "#"),
    ]
    return (
       <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50  px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
