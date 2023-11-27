@@ -6,7 +6,7 @@ export default function Faqs() {
       title: "FAQ (How it works)",
       rows: [
          {
-            title: "What is a Hodless bot?",
+            title: "What is a BrockTrade bot?",
             content: `The Hodless bot is a new Telegram bot with an incredibly user-friendly and intuitive interface, allowing users to get their hands on upcoming tokens before anyone else. Just imagine buying PEPE or DOGE coins at the lowest prices – that would be pretty cool, wouldn't it?
 
             The bot offers a variety of features, such as sniping, copy trading, cryptocurrency buying and selling, and cryptocurrency transfers. It functions on two blockchains: Ethereum (ETH) and Binance Smart Chain (BSC). The bot is designed to be convenient for both beginners and professionals to utilize.`,
@@ -14,15 +14,11 @@ export default function Faqs() {
          {
             title: "Can I use the bot for free?",
             content:
-               "The Hodless bot charges a 1% fee for each sniping and copy trading transaction. However, a significant portion of this revenue is distributed through a revenue share program among $HBOT token holders.",
+               "The BrockTrade bot charges a 1% fee for each sniping and copy trading transaction. However, a significant portion of this revenue is distributed through a revenue share program among $HBOT token holders.",
          },
          {
             title: "Where can I buy a token?",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
-         },
+            content: ``},
          {
             title: "What's the utility of the token?",
             content: `
