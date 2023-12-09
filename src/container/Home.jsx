@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Roadmap from "./components/Roadmap";
+import Stake from "./Stake/Stake";
 
 export default function Home() {
    return (
