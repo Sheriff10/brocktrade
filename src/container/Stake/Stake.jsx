@@ -55,7 +55,7 @@ export default function Stake() {
                      Withdraw Token
                   </button>
                   <button className="col p-2 rounded-lg border-1 border-neutral-900 text-neutral-900">
-                     Withdraw Token
+                     Claim Rewards
                   </button>
                </div>
             </div>
