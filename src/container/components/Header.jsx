@@ -6,11 +6,11 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 export default function Header() {
    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
    const navigation = [
-      { name: "About", href: "#about" },
-      { name: "Why choose us", href: "#choose" },
+      { name: "About", href: "/#about" },
+      { name: "Why choose us", href: "/#choose" },
       { name: "Stake", href: "/stake" },
-      { name: "Solutions", href: "#solutions" },
-      { name: "Faqs", href: "#faqs" },
+      { name: "Solutions", href: "/#solutions" },
+      { name: "Faqs", href: "/#faqs" },
    ];
 
    return (
@@ -78,10 +78,10 @@ export default function Header() {
                   </a>
                   <button
                      type="button"
-                     className="-m-2.5 rounded-md p-2.5 text-gray-300"
+                     className="-m-2.5 rounded-md p-2.5 text-cyan-300"
                      onClick={() => setMobileMenuOpen(false)}
                   >
-                     <span className="sr-only">Close menu</span>
+                     <span className="sr-only text-cyan-300">Close menu</span>
                      <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </button>
                </div>
